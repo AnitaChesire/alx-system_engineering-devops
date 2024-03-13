@@ -1,0 +1,15 @@
+When you hit enter, several components come to play. I’ll therefore use eight components to explain what happens:
+
+The DNS ( Domain Name System) request: the DNS request will translate the domain name given to an IP address. The DNS server then returns an IP that corresponds the given domain.
+TCP/IP: Having obtained the IP address, the browser establishes a TCP (Transmission Control Protocol) connection to the server. This ensures reliable transmission of data between the client i.e., the browser and the server
+Firewall: These ma or may not be present in a network. In the case that they are present, they are configure to filter the traffic between your computer and the internet against security breaches.
+HTTPS/SSL: This is the Hyper Text Transfer Protocol Secure/ Secure Socket Layer. This encrypts the data that is transferred between the browser and server to ensure confidentiality and maintain integrity
+Load balancer: The load balancer distributes the traffic from incoming requests to ensure one server is not overwhelmed.
+Web server: The request will reach the web server resolved by the IP address established. It will receive the client’s requests (that is decrypted incase of HTTPS) and process it by availing requested resources.
+Application server: this may be present in more complex applications. The application server contains the logic and development code. Therefore, it will perform the necessary calculations, access the database and generate dynamic content
+Database: the application server communicates with the database to retrieve and manipulate data.
+
+
+
+
+
